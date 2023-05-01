@@ -1,6 +1,36 @@
+/* завдання 2 */
+a[href="https://www.youtube.com/"],a[href="https://validator.w3.org/"] {
+    color: red;
+}
+
+a[href^=https] {
+    color: red;
+}
+
+ul + p {
+    font-size: 24px;
+}
+
+.holder p {
+    background-color: aqua;
+}
+
+.text-box > h3:first-child {
+    color: pink;
+}
+
 #greycol {
     color: grey;
 }
+
+div div p {
+    color: red;
+}
+
 .yellow {
     color: yellow;
+}
+
+div + h3 + p {
+    color: green;
 }
